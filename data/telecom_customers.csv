@@ -1,0 +1,6 @@
+customer_id,monthly_bill,payment_delay_days,complaints_count,avg_call_duration,data_usage_gb,international_calls,tenure_months,customer_value,churn
+C001,999,2,1,32,25,4,12,Premium,0
+C002,1499,7,3,15,10,2,6,Premium,1
+C003,799,0,0,45,60,1,24,Basic,0
+C004,1199,5,2,22,18,5,8,Premium,1
+C005,699,1,0,40,55,0,36,Basic,0
