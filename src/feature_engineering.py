@@ -8,14 +8,12 @@ spark = (
     .master("local[*]")
     .getOrCreate()
 )
-
 # Load telecom data
 df = spark.read.csv(
     "data/telecom_customers.csv",
     header=True,
     inferSchema=True
 )
-
 # Register as SQL table
 df.createOrReplaceTempView("telecom")
 
